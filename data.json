@@ -1,15 +1,16 @@
-{"p":
-  {
-    "img":"https://i.imgur.com/a1USPx9.png",
-    "move":"Black to move",
-    "rating":"1470",
-    "c_move":"Qxf2#"
-  },
-"p":
-  {
-  "img":"https://i.imgur.com/paNoiFg.png",
-  "move":"Black to move",
-  "rating":"1359",
-  "c_move":"Rxe1+  Bxe1  Qe4+ Kc1 Qxe1+"
-  }
+{
+  "puzzles": [
+    {
+      "img": "https://i.imgur.com/a1USPx9.png",
+      "move": "Black to move",
+      "rating": "1470",
+      "c_move": "Qxf2#"
+    },
+    {
+      "img": "https://i.imgur.com/paNoiFg.png",
+      "move": "Black to move",
+      "rating": "1359",
+      "c_move": "Rxe1+  Bxe1  Qe4+ Kc1 Qxe1+"
+    }
+  ]
 }
