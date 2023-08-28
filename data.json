@@ -11,6 +11,18 @@
       "move": "Black to move",
       "rating": "1359",
       "c_move": "Rxe1+  Bxe1  Qe4+ Kc1 Qxe1+"
+    },
+    {
+      "img": "https://i.imgur.com/B1gROeq.jpg",
+      "move":"Black to move",
+      "rating": "1569",
+      "c_move": "Qxg6+ Re4 Rd8+ Re8 Rxe8+"
+    },
+    {
+      "img": "https://i.imgur.com/DamQqDZ.jpg",
+      "move":"White to move",
+      "rating": "1471",
+      "c_move": "Qxg5#"
     }
   ]
 }
