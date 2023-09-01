@@ -1,28 +1,122 @@
-{
-  "puzzles": [
+[
     {
-      "img": "https://i.imgur.com/a1USPx9.png",
-      "move": "Black to move",
-      "rating": "1470",
-      "c_move": "Qxf2#"
+        "PuzzleId": "00008",
+        "FEN": "r6k/pp2r2p/4Rp1Q/3p4/8/1N1P2R1/PqP2bPP/7K b - - 0 24",
+        "Moves": "f2g3 e6e7 b2b1 b3c1 b1c1 h6c1",
+        "Rating": 1792,
+        "RatingDeviation": 76,
+        "Popularity": 95,
+        "NbPlays": 4225,
+        "Themes": "crushing hangingPiece long middlegame",
+        "GameUrl": "https://lichess.org/787zsVup/black#48",
+        "OpeningTags": ""
     },
     {
-      "img": "https://i.imgur.com/paNoiFg.png",
-      "move": "Black to move",
-      "rating": "1359",
-      "c_move": "Rxe1+  Bxe1  Qe4+ Kc1 Qxe1+"
+        "PuzzleId": "0000D",
+        "FEN": "5rk1/1p3ppp/pq3b2/8/8/1P1Q1N2/P4PPP/3R2K1 w - - 2 27",
+        "Moves": "d3d6 f8d8 d6d8 f6d8",
+        "Rating": 1441,
+        "RatingDeviation": 73,
+        "Popularity": 96,
+        "NbPlays": 22670,
+        "Themes": "advantage endgame short",
+        "GameUrl": "https://lichess.org/F8M8OS71#53",
+        "OpeningTags": ""
     },
     {
-      "img": "https://i.imgur.com/B1gROeq.jpg",
-      "move":"Black to move",
-      "rating": "1569",
-      "c_move": "Qxg6+ Re4 Rd8+ Re8 Rxe8+"
+        "PuzzleId": "0009B",
+        "FEN": "r2qr1k1/b1p2ppp/pp4n1/P1P1p3/4P1n1/B2P2Pb/3NBP1P/RN1QR1K1 b - - 1 16",
+        "Moves": "b6c5 e2g4 h3g4 d1g4",
+        "Rating": 1124,
+        "RatingDeviation": 75,
+        "Popularity": 86,
+        "NbPlays": 543,
+        "Themes": "advantage middlegame short",
+        "GameUrl": "https://lichess.org/4MWQCxQ6/black#32",
+        "OpeningTags": "Kings_Pawn_Game Kings_Pawn_Game_Leonardis_Variation"
     },
     {
-      "img": "https://i.imgur.com/DamQqDZ.jpg",
-      "move":"White to move",
-      "rating": "1471",
-      "c_move": "Qxg5#"
+        "PuzzleId": "000Vc",
+        "FEN": "8/8/4k1p1/2KpP2p/5PP1/8/8/8 w - - 0 53",
+        "Moves": "g4h5 g6h5 f4f5 e6e5 f5f6 e5f6",
+        "Rating": 1556,
+        "RatingDeviation": 81,
+        "Popularity": 89,
+        "NbPlays": 81,
+        "Themes": "crushing endgame long pawnEndgame",
+        "GameUrl": "https://lichess.org/l6AejDMO#105",
+        "OpeningTags": ""
+    },
+    {
+        "PuzzleId": "000Zo",
+        "FEN": "4r3/1k6/pp3r2/1b2P2p/3R1p2/P1R2P2/1P4PP/6K1 w - - 0 35",
+        "Moves": "e5f6 e8e1 g1f2 e1f1",
+        "Rating": 1458,
+        "RatingDeviation": 74,
+        "Popularity": 93,
+        "NbPlays": 482,
+        "Themes": "endgame mate mateIn2 short",
+        "GameUrl": "https://lichess.org/n8Ff742v#69",
+        "OpeningTags": ""
+    },
+    {
+        "PuzzleId": "000aY",
+        "FEN": "r4rk1/pp3ppp/2n1b3/q1pp2B1/8/P1Q2NP1/1PP1PP1P/2KR3R w - - 0 15",
+        "Moves": "g5e7 a5c3 b2c3 c6e7",
+        "Rating": 1439,
+        "RatingDeviation": 78,
+        "Popularity": 73,
+        "NbPlays": 499,
+        "Themes": "advantage master middlegame short",
+        "GameUrl": "https://lichess.org/iihZGl6t#29",
+        "OpeningTags": "Benoni_Defense Benoni_Defense_Benoni-Indian_Defense"
+    },
+    {
+        "PuzzleId": "000hf",
+        "FEN": "r1bqk2r/2pp1pp1/1p2pn1p/4n3/2B1P3/5N2/PPP2PPP/RNBQR1K1 b kq - 1 10",
+        "Moves": "d7f6 g5f6 e8g8 f6g7",
+        "Rating": 1206,
+        "RatingDeviation": 78,
+        "Popularity": 85,
+        "NbPlays": 731,
+        "Themes": "advantage endgame middlegame short",
+        "GameUrl": "https://lichess.org/YQvJhLHu/black#20",
+        "OpeningTags": "Caro-Kann_Defense Caro-Kann_Defense_Two_Knights_Attack"
+    },
+    {
+        "PuzzleId": "000io",
+        "FEN": "5rk1/1b3ppp/pq3n2/1p6/1Q3B2/3R1P2/PPP3PP/2K1R3 w - - 4 25",
+        "Moves": "d5e5 f6e5 c3e5 b4b3",
+        "Rating": 1549,
+        "RatingDeviation": 77,
+        "Popularity": 86,
+        "NbPlays": 723,
+        "Themes": "advantage attacking middlegame short",
+        "GameUrl": "https://lichess.org/iuOcyxDV#49",
+        "OpeningTags": "Sicilian_Defense Sicilian_Defense_Closed_Najdorf_Variation"
+    },
+    {
+        "PuzzleId": "000uw",
+        "FEN": "rnbq1rk1/pp3pbp/2p1pn2/2P2p2/1BP5/P3P3/2QN1PPP/R3K2R w KQ - 3 14",
+        "Moves": "c4d5 d6e4 c2d4 e4g5",
+        "Rating": 1552,
+        "RatingDeviation": 76,
+        "Popularity": 94,
+        "NbPlays": 877,
+        "Themes": "advantage hangingPiece long middlegame",
+        "GameUrl": "https://lichess.org/yTz4fyAq/white#28",
+        "OpeningTags": "Indian_Game Indian_Game_Principles_of_the_Open_Game"
+    },
+    {
+        "PuzzleId": "000yu",
+        "FEN": "8/1r3p2/5pk1/5Rp1/P1r2N2/5P2/5K2/8 w - - 1 53",
+        "Moves": "g7h7 f7h7 g6h7 e7h7 h4h7 a4b5 h7b5",
+        "Rating": 1803,
+        "RatingDeviation": 75,
+        "Popularity": 93,
+        "NbPlays": 196,
+        "Themes": "endgame mate mateIn3 short",
+        "GameUrl": "https://lichess.org/yxB46GMU/white#106",
+        "OpeningTags": "Caro-Kann_Defense Caro-Kann_Defense_Two_Knights_Attack"
     }
-  ]
-}
+]
