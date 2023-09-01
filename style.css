@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Monospace';
+    src: url('path/to/your/monospace-font.woff') format('woff');
+    /* Add other font formats as needed (e.g., woff2, ttf) */
+}
+body {
+    background-color: #262E36;
+    font-family: 'Monospace', monospace;
+    color: #8CC37B;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+hr{
+    width: 63%;
+    margin-left: -3px;
+    border-top: 1px solid #8CC37B;
+}
+.header {
+    background-color: #191F24;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    text-align: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8CC37B;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #8CC37B; /* Green background color on hover */
+    color: #191F24; /* Change text color on hover for better visibility */
+    border-radius: 5px; /* Add rounded corners to the green box */
+    padding: 5px 10px; /* Add padding to the green box for better styling */
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8CC37B;
+    margin: 0 10px;
+}
+.code-block {
+    background-color: #2c2424c0; /* Background color for code block */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px; /* Rounded corners */
+    text-align: left;
+    width: 60%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for a card-like appearance */
+}
+
+.code-block h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+#Docs{
+    padding-left: 20px;
+}
+/* CSS for the footer */
+.footer {
+    background-color: #191F24; /* Background color for the footer */
+    color: #8CC37B; /* Text color for the footer */
+    padding: 10px; /* Add some spacing and padding around the content */
+    text-align: center; /* Center-align the text */
+}
