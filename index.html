@@ -3,27 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChessAPI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <title>ChessPuzzlesAPI</title>
 </head>
-<style>
-    body{
-        background-color: black;
-        color: white;
-    }
-</style>
 <body>
-    <div class="puzzle">
-        <p class="img">https://i.imgur.com/a1USPx9.png</p>
-        <p class="move">Black to move</p>
-        <p class="rating">1470</p>
-        <p class="c_move">Qxf2#</p>
+    <div class="header">
+        <h1 class="title">ChessPuzzlesAPI</h1>
+        <p class="description">ChessPuzzlesAPI is an API that provides different chess puzzles</p>
+        <nav class="nav-links">
+            <a href="#Docs">Docs</a>
+            <a href="https://github.com/Untitled-Master/chesspuzzlesapi">Github</a>
+            <a href="https://github.com/Untitled-Master/">About</a>
+        </nav>
     </div>
-    <div class="puzzle">
-        <p class="img">https://i.imgur.com/paNoiFg.png</p>
-        <p class="move">Black to move</p>
-        <p class="rating">1359</p>
-        <p class="c_move">Rxe1+  Bxe1  Qe4+  
-            Kc1   Qxe1+</p>
-    </div>
+    <section id="Docs">
+        <h1 class="title">API Documentation</h1>
+        <hr>
+        <p>Here is the documentation for ChessPuzzlesAPI along with code examples:</p>
+
+        <div class="code-block">
+            <h3>Example 1: Getting all the puzzles</h3>
+            <pre>
+                <code>
+                    import requests
+
+                    # Define the API endpoint URL
+                    api_url = "https://untitled-master.github.io/chesspuzzlesapi/data.json"
+                    
+                    try:
+                        # Send a GET request to the API
+                        response = requests.get(api_url)
+                    
+                        # Check if the request was successful (status code 200)
+                        if response.status_code == 200:
+                            # Parse the JSON response
+                            data = response.json()
+                    
+                            # Now 'data' contains the JSON data from the API
+                            # You can work with the data as needed
+                            for puzzle in data:
+                                print(f"Puzzle ID: {puzzle['PuzzleId']}")
+                                print(f"FEN Position: {puzzle['FEN']}")
+                                print(f"Moves: {puzzle['Moves']}")
+                                print(f"Rating: {puzzle['Rating']}")
+                                # ... and so on for other fields
+                    
+                        else:
+                            print(f"Failed to retrieve data. Status code: {response.status_code}")
+                    
+                    except requests.exceptions.RequestException as e:
+                        print(f"Request error: {e}")
+                    
+                </code>
+            </pre>
+        </div>
+
+        <div class="code-block">
+            <h3>Example 1: Getting a random puzzle</h3>
+            <pre>
+                <code>
+                    import requests
+                    import random
+                    
+                    # Define the API endpoint URL
+                    api_url = "https://untitled-master.github.io/chesspuzzlesapi/data.json"
+                    
+                    try:
+                        # Send a GET request to the API
+                        response = requests.get(api_url)
+                    
+                        # Check if the request was successful (status code 200)
+                        if response.status_code == 200:
+                            # Parse the JSON response
+                            data = response.json()
+                    
+                            # Choose a random puzzle from the list
+                            random_puzzle = random.choice(data)
+                    
+                            # Now 'random_puzzle' contains the JSON data of a random puzzle
+                            print(f"Random Puzzle ID: {random_puzzle['PuzzleId']}")
+                            print(f"Random FEN Position: {random_puzzle['FEN']}")
+                            print(f"Random Moves: {random_puzzle['Moves']}")
+                            print(f"Random Rating: {random_puzzle['Rating']}")
+                            # ... and so on for other fields
+                    
+                        else:
+                            print(f"Failed to retrieve data. Status code: {response.status_code}")
+                    
+                    except requests.exceptions.RequestException as e:
+                        print(f"Request error: {e}")
+                    
+                </code>
+            </pre>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Untitled Master</p>
+    </footer>
 </body>
 </html>
